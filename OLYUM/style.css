@@ -1,0 +1,36 @@
+
+/*BLUE BACKGROUND*/
+#header-bg {
+    background-color: #381c8d;
+    min-height: 738px;
+    width: 100%;
+}
+
+#band-bg {
+    background-color: #381c8d;
+    min-height: 700px;
+    width: 100%;
+}
+#footer-bg {
+    background-color: #381c8d;
+    min-height: 350px;
+    width: 100%;
+}
+
+
+.headline {
+	font-family: 'Oxygen', sans-serif;
+  	position: relative;
+  	position: relative;
+  	font-weight: 200 !important; 
+}
+
+.headline:after {
+	content:' ';
+	position: absolute;
+	top:120%;
+	left:0%;
+	width: 40px;
+	border:1px solid #381c8d;
+	box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+}
