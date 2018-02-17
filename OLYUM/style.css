@@ -18,6 +18,14 @@
 }
 
 
+#h1
+{
+  font-family: 'Oxygen', sans-serif !important;
+  font-size: 60px !important;
+}
+
+
+
 .headline {
 	font-family: 'Oxygen', sans-serif;
   	position: relative;
