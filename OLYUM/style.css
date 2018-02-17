@@ -38,12 +38,38 @@
 
 /*Hover image*/
 
-#img-hover {
-   background-image: url('LibraryTransparent.png');
-   height: 70px;
-   width: 120px;
+.img-hover {
+  width: 200px;
+  height: 200px;
+  border-style: none;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#img-hover:hover {
-   background-image: url('LibraryHoverTrans.png');
+.img-hover:hover {
+  border-style: none;
+}
+
+#img-hover-1 {
+  background-image: url('images/icones/responsive.png');
+}
+
+#img-hover-1:hover {
+  background-image: url('images/icones/responsive-gray.png');
+}
+
+#img-hover-2 {
+  background-image: url('images/icones/coding.png');
+}
+
+#img-hover-2:hover {
+  background-image: url('images/icones/coding-gray.png');
+}
+
+#img-hover-3 {
+  background-image: url('images/icones/padlock.png');
+}
+
+#img-hover-3:hover {
+  background-image: url('images/icones/padlock-gray.png');
 }
