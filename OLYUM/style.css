@@ -37,16 +37,14 @@ p{
   font-family: 'Oxygen', sans-serif;
 }
 
-
-
-.headline {
+#headline {
 	font-family: 'Oxygen', sans-serif;
   	position: relative;
   	position: relative;
   	font-weight: 200 !important; 
 }
 
-.headline:after {
+#headline:after {
 	content:' ';
 	position: absolute;
 	top:20%;
@@ -138,3 +136,4 @@ p{
     transform: translate(-10px, -10px);
   }
 }
+
