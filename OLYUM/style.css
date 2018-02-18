@@ -2,8 +2,10 @@
 /*BLUE BACKGROUND*/
 #header-bg {
     background-color: #381c8d;
-    min-height: 738px;
+    min-height: 450px;
+    max-height: 800px;
     width: 100%;
+    height: 100%
 }
 
 #band-bg {
@@ -30,6 +32,9 @@ h2{
   font-size: 40px ;
   color: gray;
 }
+
+p{
+  font-family: 'Oxygen', sans-serif;
 }
 
 
@@ -44,8 +49,8 @@ h2{
 .headline:after {
 	content:' ';
 	position: absolute;
-	top:120%;
-	left:0%;
+	top:20%;
+	left:3%;
 	width: 40px;
 	border:1px solid #381c8d;
 	box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
